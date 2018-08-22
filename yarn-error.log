@@ -1,0 +1,66 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add
+
+PATH: 
+  C:\Users\Administrator\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\local\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\usr\bin;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\Administrator\bin;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\MacType;C:\Program Files (x86)\Yarn\bin;C:\Program Files\nodejs;C:\jdk-10\bin;D:\Program Files\Git\cmd;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;D:\ffmpeg\bin;D:\ffmpeg\bin;D:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts;C:\Users\Administrator\AppData\Local\Programs\Python\Python36;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;C:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;D:\Program Files (x86)\Microsoft VS Code\bin;E:\adb;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;D:\Program Files\Git\usr\bin\vendor_perl;D:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.10.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "express-sticky-note",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "set PORT=4040 && node ./bin/www",
+      "webpack": "webpack --config=src/webpack.config.js",
+      "watch": "onchange \"src/**/*.js\" \"src/**/*.less\"  -- npm run webpack"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.3",
+      "css-loader": "^1.0.0",
+      "debug": "~2.6.9",
+      "ejs": "~2.5.7",
+      "express": "~4.16.0",
+      "express-session": "^1.15.1",
+      "http-errors": "~1.6.2",
+      "jquery": "^3.3.1",
+      "less": "^3.8.1",
+      "less-loader": "^4.1.0",
+      "morgan": "~1.9.0",
+      "sequelize": "^3.30.2",
+      "sqlite3": "^3.1.13",
+      "style-loader": "^0.22.1"
+    },
+    "devDependencies": {
+      "cross-env": "^5.2.0",
+      "onchange": "^3.2.1",
+      "webpack": "^2.6.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Missing list of packages to add to your project.
+      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at Object.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:40587:13)
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:116:14
+      at new Promise (<anonymous>)
+      at new F (C:\Program Files (x86)\Yarn\lib\cli.js:23451:28)
+      at Object.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:95:12)
+      at Object.run (C:\Program Files (x86)\Yarn\lib\cli.js:40599:19)
+      at run (C:\Program Files (x86)\Yarn\lib\cli.js:89113:20)
